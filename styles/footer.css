@@ -1,0 +1,60 @@
+.footer-contato {
+    padding: 8rem 9rem;
+    background-color: var(--footer);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-contato__container__titulo {
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--cor-fonte);
+}
+
+.footer-contato__container__texto {
+    font-size: 24px;
+    color: var(--cinza-fonte);
+    margin: 1.8rem;
+}
+
+.footer-contato__container__contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer-contato__container__titulo__botao {
+    text-decoration: none;
+    color: var(--background-cor);
+    background-color: var(--cor-texto-vermelho);
+    border-radius: 8px;
+    border: 2px solid var(--cor-texto-vermelho);
+    padding: 10px 18px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.footer-contato__container__titulo__botao:hover {
+    background-color: transparent;
+    border: 2px solid var(--cor-texto-vermelho);
+    color: var(--cor-texto-vermelho);
+}
+
+.footer__ref {
+    color: var(--cor-footer-letra);
+}
+
+.footer-contato__container__titulo__input {
+    padding: 0.8rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 18px;
+    font-size: 16px;
+    color: var(--cor-footer-letra);
+    width: 70%;
+    box-sizing: border-box;
+}

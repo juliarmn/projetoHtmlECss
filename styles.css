@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('styles/header.css');
+@import url('styles/banner.css');
+@import url('styles/metricas.css');
+@import url('styles/talentos.css');
+@import url('styles/colaboradores.css');
+@import url('styles/footer.css');
+
+
+:root {
+    --background-cor: #FFFFFF;
+    --cor-fonte: #101828;
+    --cinza-fonte: #667085;
+    --cor-texto-vermelho: #8E2424;
+    --borda: #EAECF0;
+    --cor-footer-letra: #98A2B3;
+    --footer: #F9FAFB;
+}
+
+body {
+    background-color: var(--background-cor);
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 16px;
+}

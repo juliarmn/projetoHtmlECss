@@ -1,0 +1,73 @@
+.talentos {
+    padding: 4rem 9rem 4rem 9rem;
+}
+
+.talentos__apresentacao {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.talentos__apresentacao__sobretitulo {
+    color: var(--cor-texto-vermelho);
+    font-weight: 500;
+    padding: 12px 4px;
+    border-radius: 18px;
+    background-color: rgba(142, 36, 36, 0.05);
+    width: 9%;
+    margin: 0 auto;
+}
+
+.talentos__apresentacao__titulo {
+    font-size: 38px;
+    font-weight: 600;
+    color: var(--cor-fonte);
+    margin: 1.7rem;
+}
+
+.talentos__apresentacao__texto {
+    font-size: 24px;
+    color: var(--cinza-fonte);
+    margin-bottom: 4rem;
+}
+
+.talentos__design {
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+}
+
+.talentos__design__titulo {
+    margin: 2rem 0;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--cor-fonte);
+    width: 72%;
+}
+
+.talentos__design__container {
+    border: 1px solid var(--borda);
+    padding: 2rem;
+    border-radius: 18px;
+    width: 70%;
+}
+
+.talentos__design__container__titulo {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--cor-fonte);
+}
+
+.talentos__design__container__texto {
+    display: flex;
+    gap: 2rem;
+    color: var(--cinza-fonte);
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 2.5rem;
+}

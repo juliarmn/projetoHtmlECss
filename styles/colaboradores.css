@@ -1,0 +1,43 @@
+.colaboradores {
+    padding: 0 9rem 6rem 9rem;
+    display: flex;
+    justify-content: center;
+}
+
+.colaboradores__card {
+    background-color: rgba(142, 36, 36, 0.05);
+    width: 80%;
+    padding: 5rem;
+    text-align: center;
+    border-radius: 18px;
+}
+
+.colaboradores__card__sobre {
+    color: var(--cor-texto-vermelho);
+    font-weight: 600;
+    margin: 1.5rem 0;
+}
+
+.colaboradores__card__titulo {
+    color: var(--cor-fonte);
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 4rem;
+}
+
+.avatar {
+    width: 5%;
+}
+
+.colaboradores__card__nome {
+    font-size: 16px;
+    color: var(--cor-fonte);
+    font-weight: 500;
+    margin: 1rem;
+}
+
+.colaboradores__card__descricao {
+    font-size: 16px;
+    color: var(--cinza-fonte);
+    font-weight: 500;
+}
